@@ -7,4 +7,5 @@
 #FROM gcr.io/knative-releases/knative.dev/serving/cmd/queue
 #FROM gcr.io/knative-releases/knative.dev/eventing/cmd/mtping
 #FROM gcr.io/knative-releases/knative.dev/eventing/cmd/apiserver_receive_adapter
-FROM gcr.io/knative-releases/knative.dev/eventing/cmd/controller
+#FROM gcr.io/knative-releases/knative.dev/eventing/cmd/controller
+FROM gcr.io/knative-releases/knative.dev/eventing/cmd/webhook
