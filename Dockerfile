@@ -8,4 +8,5 @@
 #FROM gcr.io/knative-releases/knative.dev/eventing/cmd/mtping
 #FROM gcr.io/knative-releases/knative.dev/eventing/cmd/apiserver_receive_adapter
 #FROM gcr.io/knative-releases/knative.dev/eventing/cmd/controller
-FROM gcr.io/knative-releases/knative.dev/eventing/cmd/webhook
+#FROM gcr.io/knative-releases/knative.dev/eventing/cmd/webhook
+FROM gcr.io/knative-releases/knative.dev/eventing/cmd/in_memory/channel_dispatcher
